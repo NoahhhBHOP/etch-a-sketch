@@ -44,7 +44,13 @@ button {
     height: 650px;
     margin: 40px auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border: darkgray solid 3px;
+}
+
+.grid-item {
+    border: black solid 1px;
+    box-sizing: border-box;
 }

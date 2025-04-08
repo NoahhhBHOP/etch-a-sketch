@@ -13,13 +13,14 @@
         <div class="grid-container">
             <div class="grid-item"></div>
         </div>
-        <div class ="button-container">
+        <div class="button-container">
             <button id="clear">Clear</button>
             <button id="resize">Resize Grid</button>
-            <button id="color">Change Color</button>
-            <button id="rainbow">Rainbow Mode</button>
-            <button id="eraser">Eraser</button> 
-        </div>  
+            <label for="color" class="color-picker-label">Color Picker</label>
+            <input type="color" id="color" value="#000000"> <!-- Hidden color picker -->
+            <button id="rainbow">Rainbow Mode: OFF</button>
+            <button id="eraser">Eraser Mode: OFF</button>
+        </div>
     </div>
 
     <script src="javascript.js"></script>

@@ -40,8 +40,11 @@ button {
 }
 
 .grid-container {
+    width: 650px;
+    height: 650px;
+    margin: 40px auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border: darkgray solid 3px;
 }
